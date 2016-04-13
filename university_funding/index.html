@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel=stylesheet href="./style.css" type="text/css">
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="main">
+        		<div class="container">
+        		<div class="row">
+        			<div class="col-md-1"></div>
+        			<div class="col-md-10 content">
+        			<a name="top"></a>
+        				<header> <h1>Ontario University Government Funding</h1></header>
+        			 	<div class="headBoxLt col-md-9">
+        			 		<img src="./graph.png" id="graphImg" usemap="#graphmap" >
+        			 		<map name="graphmap">
+							  	<area alt="University of Toronto" title="UofT" id="mpToronto" shape="poly" coords="250,378,298,308,335,320,373,316,407,298,426,272,435,248,436,233,524,236,518,271,494,332,462,365,394,402,329,407,290,400" style="outline:none;">
+							  	<area id="mpTrent" alt="trent" title="trent" shape="poly" coords="436,232,436,230,523,230,524,236" style="outline:none;">
+								<area id="mpOntario" alt="ontario" title="Ontario Institute" shape="poly" coords="522,229,520,210,434,220,436,230" style="outline:none;">
+								<area id="mpWaterloo" alt="waterloo" title="waterloo" shape="poly" coords="521,210,509,162,484,122,416,176,436,218" style="outline:none;">
+								<area id="mpWestern" alt="western" title="western" shape="poly" coords="409,167,416,174,484,120,472,107" style="outline:none;" >
+								<area id="mpGuelph" alt="guelph" title="guelph" shape="poly" coords="329,141,311,147,293,157,242,87,260,74,287,64,312,56" style="outline:none;" >
+								<area id="mpLakehead" alt="lakehead" title="lakehead" shape="poly" coords="292,157,285,163,225,101,241,89" style="outline:none;">
+								<area id="mpMaster" alt="McMaster" title="McMaster" shape="poly" coords="257,220,262,196,273,178,284,165,224,101,205,123,189,149,178,173,171,194,169,209" style="outline:none;" >
+								<area id="mpBrock" alt="brock" title="brock" shape="poly" coords="345,140,331,142,315,55,345,53" style="outline:none;">
+								<area id="mpLaurier" alt="laurier" title="laurier" shape="poly" coords="411,167,409,165,470,104,474,110" style="outline:none;" >
+								<area id="mpWindsor" alt="windsor" title="windsor" shape="poly" coords="396,155,409,166,471,104,444,83" style="outline:none;">
+								<area id="mpYork" alt="york university" title="york" shape="poly" coords="396,155,376,145,361,141,347,141,346,53,374,56,393,59,411,66,429,73,444,82" style="outline:none;">
+								<area id="mpOcad" alt="OCAD University" title="ocad" shape="poly" coords="255,224,256,221,169,210,170,218" style="outline:none;">
+								<area id="mpOttawa" alt="University of Ottawa" title="ottawa" shape="poly" coords="257,239,256,223,169,218,170,248" style="outline:none;">
+								<area id="mpQueens" alt="Queen's University" title="queens" shape="poly" coords="270,280,261,262,256,241,170,250,175,278,186,307,202,331" style="outline:none;">
+								<area id="mpRyerson" alt="Ryerson University" title="ryerson" shape="poly" coords="271,282,282,296,295,306,248,377,231,365,217,350,202,333" style="outline:none;">
+							</map>
+							<div class="headBoxSub">
+								<h4 id="schoolName"></h4>
+								<p><span id="schoolDollars"></span></p>
+								<p><span id="schoolPercent"></span></p>
+							</div>
+							<div class="headBoxSubRt">
+								<p>Hover for more details. <br>Click for complete summary.</p>
+							</div>
+        			 	</div>
+        				<div class="table-of-contents col-md-3">
+	        			  <ul class="tableOfContents">
+	        			  	<li id="lBrock"><p id="listText"><a href="#brock">Brock University</a></p></li>
+	        			  	<li id="lGuelph"><p id="listText"><a href="#guelph">University of Guelph</a></p></li>
+	        			  	<li id="lLake"><p id="listText"><a href="#lakehead">Lakehead University</a></p></li>
+	        			  	<li id="lMaster"><p id="listText"><a href="#master">McMaster University</a></p></li>
+	        			  	<li id="lOCAD"><p id="listText"><a href="#ocad">OCAD University</a></p></li>
+	        			  	<li id="lOttawa"><p id="listText"><a href="#ottawa">University of Ottawa</a></p></li>
+	        			  	<li id="lQueens"><p id="listText"><a href="#queens">Queen's University</a></p></li>
+	        			  	<li id="lRyerson"><p id="listText"><a href="#ryerson">Ryerson University</a></p></li>
+	        			  	<li id="lUofT"><p id="listText"><a href="#toronto">University of Toronto</a></p></li>
+	        			  	<li id="lTrent"><p id="listText"><a href="#trent">Trent University</a></p></li>
+	        			  	<li id="lOntario"><p id="listText"><a href="#ontario">University of Ontario Institute of Technology</a></p></li>
+	        			  	<li id="lWaterloo"><p id="listText"><a href="#waterloo">University of Waterloo</a></p></li>
+	        			  	<li id="lWestern"><p id="listText"><a href="#western">Western University</a></p></li>
+	        			  	<li id="lLaurier"><p id="listText"><a href="#laurier">Wilfrid Laurier</a></p></li>
+	        			  	<li id="lWindsor"><p id="listText"><a href="#windsor">University of Windsor</a></p></li>
+	        			  	<li id="lYork"><p id="listText"><a href="#york">York University</a></p></li>
+	        			  </ul>
+        			  	</div>
+        			  	<div class="headBtm col-md-9">
+        			  		<h4>Methodology</h4>
+        			  		<p>Data was extracted from the Canadian Government's website for the <a href="https://lobbycanada.gc.ca/eic/site/012.nsf/eng/h_00000.html">Office of the Commissioner of Lobbying</a>. This was done using bash tools and LibreOffice to: extract, format, calculate the data.</p>
+        			  		<h4>Problems</h4>
+        			  		<p>Universities that had no data on lobbying include:  
+        			  		<ul>
+								<li>Nipissing University</li>
+								<li>Laurentian University</li>
+								<li>Carleton University</li>
+								<li>Algoma University</li>
+							</ul>
+							<p>Not impressed with the <a href="https://www.oico.on.ca/home">Ontario Government's lobbying site</a>. Their was little data and many lobbyists registrations weren't updated after 2011.</p>
+        			  	</div>
+        			</div>
+        			<div class="col-md-1"></div>
+        		</div>
+        		<div class="row">
+        			<div class="col-md-1"></div>
+        			<div class="col-md-10 content">
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="brock"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+			        					<h3 id="univTitle">Brock University</h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$123,232,000.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=225481">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	<tr>
+									        <td>Canada Research Chairs</td>
+									        <td>$1,425,000.00</td>
+									    </tr>
+									      <tr>
+									        <td>Canadian Foundation for Innovation (CFI)</td>
+									        <td>$1,429,000.00</td>
+									    </tr>
+									    <tr>
+									        <td>Canadian Institutes of Health Research (CIHR)</td>
+									        <td>$177,000.00</td>
+									    </tr>
+									    <tr>
+									        <td>Foreign</td>
+									        <td>No</td>
+									    </tr>
+									    <tr>
+									        <td>Natural Sciences and Engineering Research Council (NSERC)</td>
+									        <td>$2,484,000.00</td>
+									      </tr>
+									    <tr>
+									        <td>Other Federal</td>
+									        <td>$2,983,000.00</td>
+									      </tr>
+									    <tr>
+									        <td>Provincial </td>
+									        <td>$112,607,000.00</td>
+									      </tr>
+									    <tr>
+									        <td>Social Sciences and Humanities Research Council (SSHRC)</td>
+									        <td>$2,127,000.00</td>
+									    </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="guelph"></a>
+	        					<div class="row">
+									<div class="schoolHeadLt col-md-10">
+			        					<h3 id="univTitle">Guelph University</h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$316,770,000.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=6149">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	<tr>
+									        <td>Canada Foundation for Innovation</td>
+									        <td>$4,190,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canada Research Chairs</td>
+									        <td>$5,053,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Institutes of Health Research</td>
+									        <td>$3,270,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences &amp; Engineering Research Council</td>
+									        <td>$15,213,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Other Federal</td>
+									        <td>$17,491,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Provincial</td>
+									        <td>$269,252,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Social Sciences &amp; Humanities Research Council</td>
+									        <td>$2,301,000.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="lakehead"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+			        					<h3 id="univTitle">Lakehead University</h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$80,424,000.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=332446">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	<tr>
+									        <td>Canada Foundation for Innovation</td>
+									        <td>$477,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canada Research Chairs</td>
+									        <td>$700,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Institutes of Health Research (CIHR)</td>
+									        <td>$1,283,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences and Engineering Research Council (NSERC)</td>
+									        <td>$3,153,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Other Federal</td>
+									        <td>$3,883,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Provincial</td>
+									        <td>$69,206,000.00
+									        </td>
+									      </tr>
+									      <tr>
+									        <td>Social Sciences and Humanities Research Council (SSHRC)</td>
+									        <td>$1,722,000.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="master"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+			        					<h3 id="univTitle">McMaster University</h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$495,785,000.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=15634">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+										<tr>
+									        <td>Canada Foundation for Innovation (CFI)</td>
+									        <td>$16,962,000.00</td>
+									      </tr>
+									      <tr>
+									      	<td>Canada Research Chairs</td>
+									        <td>$7,678,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Institutes of Health Research (CIHR)</td>
+									        <td>$60,258,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Foreign</td>
+									        <td>$6,281,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Health Canada (HC)</td>
+									        <td>$148,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Municipal Government</td>
+									        <td>$10,185,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences and Engineering Research Council (NSERC)</td>
+									        <td>$30,983,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Other Federal</td>
+									        <td>$21,194,000.00 </td>
+									      </tr>
+									      <tr>
+									        <td>Other Provincial</td>
+									        <td>$318,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Province of Ontario</td>
+									        <td>$333,360,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Social Sciences and Humanities Research Council (SSHRC)</td>
+									        <td>$8,418,000.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="ocad"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+			        					<h3 id="univTitle">OCAD University</h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$28,126,750.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=261304">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>					
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	 <tr>
+									        <td>Canada Foundation for Innovation</td>
+									        <td>$814,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Heritage (PCH)</td>
+									        <td>$134,750.00</td>
+									      </tr>
+									      <tr>
+									        <td>Federal Economic Development Agency for Southern Ontario (FedDev) 
+									        </td>
+									        <td>No</td>
+									      </tr>
+									      <tr>
+									        <td>Innovation, Science and Economic Development Canada (Industry Canada)</td>
+									        <td>No</td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences and Engineering Research Council (NSERC)</td>
+									        <td>$108,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Ontario Ministry of Economic Development and Innovation</td>
+									        <td>$1,290,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Ontario Ministry of Training, Colleges and Universities</td>
+									        <td>$25,419,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Social Sciences and Humanities Research Council (SSHRC)</td>
+									        <td>$361,000.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="ottawa"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+										<h3 id="univTitle">University of Ottawa</h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$123,603,001.05</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=222481">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>					
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	 <tr>
+									        <td>Canada Foundation for Innovation</td>
+									        <td>$7,918,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canada Research Chairs</td>
+									        <td>$11,015,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Institutes of Health Research (CIHR)</td>
+									        <td>$43,468,000.71</td>
+									      </tr>
+									      <tr>
+									        <td>Health Canada (HC)</td>
+									        <td>No</td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences and Engineering Research Council (NSERC)</td>
+									        <td>$19,285,000.34</td>
+									      </tr>
+									      <tr>
+									        <td>Other federal grants</td>
+									        <td>$32,576,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Social Sciences and Humanities Research Council (SSHRC)</td>
+									        <td>$9,341,000.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="queens"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+										<h3 id="univTitle">Queen's University</h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$351,315,000.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=17182">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>					
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	 <tr>
+									        <td>Canada Research Chairs</td>
+									        <td>$6,745,000.00</td>
+									      </tr>
+									      <tr>
+									      	<td>Canadian Foundation for Innovation</td>
+									        <td>$11,837,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Institutes of Health Research</td>
+									        <td>$15,028,000.00 </td>
+									      </tr>
+									      <tr>
+									        <td>Federal Government</td>
+									        <td>$26,530,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Foreign Governments</td>
+									        <td>$18,284,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Health Canada</td>
+									        <td>$166,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Kingston Municipal Government</td>
+									        <td>$89,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences and Engineering Research Council</td>
+									        <td>$25,136,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Ontario Provincial Government</td>
+									        <td>$240,422,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Other Provinces</td>
+									        <td>$50,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Social Sciences and Humanities Research Council</td>
+									        <td>$7,028,000.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="ryerson"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+										<h3 id="univTitle">Ryerson University</h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$259,181,000.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=16965">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>					
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	 <tr>
+									        <td>Canada Research Chairs</td>
+									        <td>$1,550,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Foundation for Innovation (CFI)</td>
+									        <td>$407,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Institutes of Health Research (CIHR)</td>
+									        <td>$2,933,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Space Agency (CSA)</td>
+									        <td>$151,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>City of Toronto</td>
+									        <td>$1,118,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Federal Economic Development Agency for Southern Ontario (FedDev)</td>
+									        <td>$2,311,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Indigenous and Northern Affairs Canada (Aboriginal Affairs and Northern Development Canada)</td>
+									        <td>$191,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Indirect Cost of University Research</td>
+									        <td>$3,572,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>International Development Research Centre (IDRC)</td>
+									        <td>$135,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences and Engineering Research Council (NSERC)</td>
+									        <td>$7,849,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Networks of Centres of Excellence</td>
+									        <td>$617,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Province of Ontario</td>
+									        <td>$234,634,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Social Sciences and Humanities Research Council (SSHRC)</td>
+									        <td>$3,713,000.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="toronto"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+										<h3 id="univTitle">University of Toronto </h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$1,490,237,000.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=5522">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>					
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	  <tr>
+									        <td>Canada Foundation for Innovation</td>
+									        <td>$106,716,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canada Research Chairs</td>
+									        <td>$43,068,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Institutes of Health Research (CIHR)</td>
+									        <td>$170,167,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Foreign</td>
+									        <td>$22,804,000.00 </td>
+									      </tr>
+									      <tr>
+									        <td>Health and Welfare Canada</td>
+									        <td>$3,598,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Municipal</td>
+									        <td>$891,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences and Engineering Research Council (NSERC)</td>
+									        <td>$70,814,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Other Federal</td>
+									        <td>$70,570,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Other Provinces</td>
+									        <td>$887,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Provincial</td>
+									        <td>$975,656,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Social Sciences and Humanities Research Council (SSHRC)</td>
+									        <td>$25,066,000.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="trent"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+										<h3 id="univTitle">Trent University</h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$8,762,000.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=344907">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>					
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	   <tr>
+										        <td>(Indirect costs of university research)</td>
+										        <td>$1,713,000.00</td>
+										      </tr>
+										      <tr>
+										        <td>Canada Foundation for Innovation
+										        </td>
+										        <td>$1,100,000.00</td>
+										      </tr>
+										      <tr>
+										        <td>Canada Research Chairs</td>
+										        <td>$1,075,000.00</td>
+										      </tr>
+										      <tr>
+										        <td>Canadian Institutes of Health Research (CIHR)</td>
+										        <td>$245,000.00</td>
+										      </tr>
+										      <tr>
+										        <td>Environment and Climate Change Canada (Environment Canada)</td>
+										        <td>$395,000.00</td>
+										      </tr>
+										      <tr>
+										        <td>Health and Welfare Canada</td>
+										        <td>$90,000.00</td>
+										      </tr>
+										      <tr>
+										        <td>Indigenous and Northern Affairs Canada (Aboriginal Affairs and Northern Development Canada)
+										        </td>
+										        <td>$148,000.00</td>
+										      </tr>
+										      <tr>
+										        <td>Natural Sciences and Engineering Research Council (NSERC)
+										        </td>
+										        <td>$2,517,000.00</td>
+										      </tr>
+										      <tr>
+										        <td>Networks of Centres of Excellence</td>
+										        <td>$547,000.00</td>
+										      </tr>
+										      <tr>
+										        <td>Social Sciences and Humanities Research Council (SSHRC)</td>
+										        <td>$932,000.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="ontario"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+										<h3 id="univTitle">University of Ontario Institute of Technology</h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$79,125,000.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=287044">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>					
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	   <tr>
+									        <td>Canada Foundation for Innovation</td>
+									        <td>$253,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canada Research Chairs</td>
+									        <td>$500,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Institutes of Health Research (CIHR)</td>
+									        <td>$500,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences and Engineering Research Council (NSERC)</td>
+									        <td>$2,226,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Social Sciences and Humanities Research Council (SSHRC)</td>
+									        <td>$2,454,958.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="waterloo"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+										<h3 id="univTitle">Waterloo University </h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$388,310,000.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=5311">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>					
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	  <tr>
+									        <td>Canada Research Chairs/Canada Excellence Research Chairs</td>
+									        <td>$11,450,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Foundation for Innovation (CFI)</td>
+									        <td>$10,839,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Institutes of Health Research (CIHR)</td>
+									        <td>$6,822,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Foreign</td>
+									        <td>$1,730,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Health Canada (HC)</td>
+									        <td>$24,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Municipal</td>
+									        <td>$1,271,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences and Engineering Research Council (NSERC)</td>
+									        <td>$45,674,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Other federal</td>
+									        <td>$34,751,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Other provinces</td>
+									        <td>$625,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Provincial</td>
+									        <td>$269,152,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Social Sciences and Humanities Research Council (SSHRC)
+									        </td>
+									        <td>$5,972,000.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="western"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+										<h3 id="univTitle">Western University </h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$75,372,000.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=6219">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>					
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	 <tr>
+									        <td>Canada Foundation for Innovation</td>
+									        <td>$13,087,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Institutes of Health Research (CIHR)</td>
+									        <td>$30,262,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences and Engineering Research Council (NSERC)</td>
+									        <td>$23,061,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Social Sciences and Humanities Research Council (SSHRC)</td>
+									        <td>$8,962,000.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="laurier"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+										<h3 id="univTitle">Wilfrid Laurier University</h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$5,933,958.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=268702">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>					
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	 <tr>
+									        <td>Canada Foundation for Innovation</td>
+									        <td>$253,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canada Research Chairs</td>
+									        <td>$500,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Institutes of Health Research (CIHR)</td>
+									        <td>$500,000.00 </td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences and Engineering Research Council (NSERC)</td>
+									        <td>$2,226,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Social Sciences and Humanities Research Council (SSHRC)</td>
+									        <td>$2,454,958.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="windsor"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+										<h3 id="univTitle">University of Windsor </h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$137,101,000.00</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=221741"> Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>					
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	 <tr>
+									        <td>Canada Research Chairs</td>
+									        <td>$1,695,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Foundation for Innovation</td>
+									        <td>$2,432,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Institutes for Health Research</td>
+									        <td>$842,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Federal</td>
+									        <td>$10,189,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Foreign</td>
+									        <td>$814,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Health &amp; Welfare Canada</td>
+									        <td>No</td>
+									      </tr>
+									      <tr>
+									        <td>Municipal</td>
+									        <td>$385,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences &amp; Engineering Research Counsel</td>
+									        <td>$9,218,000.00</td>
+									      </tr>
+									      <tr>
+									        <td >Ontario</td>
+									        <td>$109,338,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Social Science &amp; Humanities Research Counsel</td>
+									        <td>$2,188,000.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        				<div class="school">
+        					<div class="schoolHead">
+        						<a name="york"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+										<h3 id="univTitle">York University </h3>
+										<h4 id="univFoot">Total Government Funding in 2014: <span id="univAmt">$408,706,826.25</span></h4>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=15647">Lobbying Summary</a>
+
+									</div>
+									<div class="schoolHeadRt col-md-2"><a href="#top"><p>Back to Top</p></a></div>
+								</div>
+							</div>					
+        					<div class="table-responsive"> 
+						        <table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-9">Government Institution</th>
+									      <th class="col-md-3">Funding Received in 2014</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	 <tr>
+									        <td>Canada Council for the Arts</td>
+									        <td>$1,167,563.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canada Research Chairs</td>
+									        <td>$4,660,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Foundation for Innovation (CFI)</td>
+									        <td>$1,475,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Heritage (PCH)</td>
+									        <td>$0.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Institutes of Health Research (CIHR)</td>
+									        <td>$4,360,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian International Development Agency (CIDA)</td>
+									        <td>$524,089.00</td>
+									      </tr>
+									      <tr>
+									        <td>Canadian Space Agency (CSA)</td>
+									        <td>$198,394.00</td>
+									      </tr>
+									      <tr>
+									        <td>Department of Labour</td>
+									        <td>$0.00</td>
+									      </tr>
+									      <tr>
+									        <td>Environment and Climate Change Canada (Environment Canada)</td>
+									        <td>$300,617.00</td>
+									      </tr>
+									      <tr>
+									        <td>Federal Economic Development Agency for Southern Ontario (FedDev)</td>
+									        <td>$4,426,431.00</td>
+									      </tr>
+									      <tr>
+									        <td>Foreign Affairs and International Trade Canada (DFAITC)
+									        </td>
+									        <td>$40,089.00</td>
+									      </tr>
+									      <tr>
+									        <td>Human Resources and Skills Development Canada (HRSDC)
+									        </td>
+									        <td>$149,302.00</td>
+									      </tr>
+									      <tr>
+									        <td>Immigration, Refugees and Citizenship Canada (Citizenship and Immigration Canada)</td>
+									        <td>$1,543,597.00</td>
+									      </tr>
+									      <tr>
+									        <td>Indigenous and Northern Affairs Canada (Aboriginal Affairs and Northern Development Canada)</td>
+									        <td>$49,700.00</td>
+									      </tr>
+									      <tr>
+									        <td>Indirect Costs of University Research
+									        </td>
+									        <td>$4,857,858.00</td>
+									      </tr>
+									      <tr>
+									        <td>Innovation, Science and Economic Development Canada (Industry Canada)</td>
+									        <td>$10,530,002.00</td>
+									      </tr>
+									      <tr>
+									        <td>International Development Research Centre (IDRC)</td>
+									        <td>$344,336.00
+									        </td>
+									      </tr>
+									      <tr>
+									        <td>Justice Canada (JC)
+									        </td>
+									        <td>$122,510.25</td>
+									      </tr>
+									      <tr>
+									        <td>Municipal
+									        </td>
+									        <td>$1,167,000.00
+									        </td>
+									      </tr>
+									      <tr>
+									        <td>National Defence (DND)</td>
+									        <td>$110,380.00</td>
+									      </tr>
+									      <tr>
+									        <td>Natural Sciences and Engineering Research Council (NSERC)</td>
+									        <td>$10,395,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Network Centres of Excellence</td>
+									        <td>$1,041,743.00</td>
+									      </tr>
+									      <tr>
+									        <td>Ontario, Government of</td>
+									        <td>$344,621,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Public Health Agency of Canada (PHAC)</td>
+									        <td>$110,154.00</td>
+									      </tr>
+									      <tr>
+									        <td>Public Services and Procurement Canada (Public Works and Government Services Canada)</td>
+									        <td>$829,689.00
+									        </td>
+									      </tr>
+									      <tr>
+									        <td>Social Sciences and Humanities Research Council (SSHRC)</td>
+									        <td>$15,667,000.00</td>
+									      </tr>
+									      <tr>
+									        <td>Translation Scholarship
+									        </td>
+									        <td>$6,736.00
+									        </td>
+									      </tr>
+									      <tr>
+									        <td>Transport Canada (TC)</td>
+									        <td>$2,992.00</td>
+									      </tr>
+									      <tr>
+									        <td>Young Canada Works (Canadian Museums Agency)</td>
+									        <td>$5,644.00</td>
+									      </tr>
+							        </tbody> 
+						    	</table> 
+					        </div>
+        				</div>
+        			</div>
+        			<div class="col-md-1"></div>
+        		</div>
+        	</div>
+        </div>
+
+
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="./script.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

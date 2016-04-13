@@ -1,0 +1,133 @@
+h1{
+	text-align:center;
+}
+
+.content{
+	background-color:#F7FBFF;
+	border-left: 1px solid #C7C7C7;
+    border-right: 1px solid #C7C7C7;
+}
+@media screen and (min-width: 760px) {
+	#graphImg{
+		width:690px;
+		height:417px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#graphImg{
+		width:280px;
+		height:177px;
+	}
+	#headBoxSub{
+		display: none;
+	}
+	#headBoxRt{
+		display: none;
+	}
+}
+
+.headBoxLt{
+	height:430px;
+	margin-bottom:20px;
+	border-radius:5px;
+	border:1px solid lightgray;
+}
+.headBoxSub{
+	width:200px;
+	padding:5px;
+	z-index:10;
+	position:absolute;
+	bottom:10px;	
+}
+.headBoxSubRt{
+	width:200px;
+	position:absolute;
+	z-index:10;
+	padding:5px;
+	bottom:10px;
+	right:5px;
+	text-align:center;
+}
+.headBtm{
+	background-color:white;
+	margin-bottom:20px;
+	border-radius:5px;
+	border:1px solid lightgray;
+	float:left;
+}
+.table-of-contents{
+	float:right;
+}
+
+.schoolHead{
+	background-color:white;
+	border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding:10px;
+}
+
+.schoolHeadLt{
+	top:-7px;
+}
+.schoolHeadRt{
+	top:10px;
+}
+
+#listText{
+	font-size:15px;
+}
+.tableOfContents{
+	list-style-type:square;
+	font-size:20px;
+}
+#lBrock{
+	color:#004586;
+}
+#lLake{
+	color:#ffd320;
+}
+#lGuelph{
+	color:#ff420e;
+}
+#lMaster{
+	color:#b949bd;
+}
+#lOCAD{
+	color:#7e0021;
+}
+#lOttawa{
+	color:#83caff;
+}
+#lQueens{
+	color:#314004;
+}
+#lRyerson{
+	color:#5e4b3e;
+}
+#lUofT{
+	color:#4b1f6f;
+}
+#lTrent{
+	color:#ff950e;
+}
+#lOntario{
+	color:#c5000b;
+}
+#lWaterloo{
+	color:#0084d1;
+}
+#lWestern{
+	color:#d7f9bd;
+}
+#lLaurier{
+	color:black;
+}
+#lWindsor{
+	color:#076b77;
+}
+#lYork{
+	color:#579d1c;
+}
