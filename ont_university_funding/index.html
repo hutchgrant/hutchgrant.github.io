@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html id="ng-app" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ontario University Provincial Funding</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="" content-type="application/json">
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.css'>
+    <link rel='stylesheet' href='./style.css'>
+  </head>
+  
+  <body ng-app="univFunding">
+
+  <div class="container" ng-controller="MyAppController">
+    <h3>{{title}}</h3>
+    <h5>{{description}}</h5><br />
+
+	<div class="panel panel-default">
+        <div class="panel-heading">
+			<div class="input-group">
+                <input ng-model="query" type="text" placeholder="Search Universities in Ontario" class="form-control"><span ng-click="clearFilter()" ng-disabled="query.length == 0" class="input-group-addon"><i class="glyphicon glyphicon-remove"></i></span>
+              </div>
+        </div>
+
+        <div class="panel list-group">
+			<a href="#" ng-repeat="univ in univ | filter: query" class="list-group-item animate-repeat" ng-model="collapsed" ng-click="collapsed=!collapsed"><span class="badge">{{univ.location}}</span><h4>{{univ.title}}</h4><br>
+	        <div ng-show="collapsed">
+	        <p>Federal Funding: ${{univ.fedTotal}}</p>
+	        <p>Provincial Funding: ${{univ.provTotal}}</p>
+	        <div class="table-responsive"> 
+		    	<table class="table table-bordered table-striped">
+			         <thead> 
+					    <tr>
+					      <th class="col-md-6">Ontario Ministry</th>
+					      <th class="col-md-4">Reason</th>
+					      <th class="col-md-2">Funding 2014-2015</th>
+					    </tr>
+				    </thead> 
+				    <tbody> 
+				    	<tr ng-repeat="funding in univ.funding">
+					        <td>{{funding.ministry}}</td>
+					        <td>{{funding.reason}}</td>
+					        <td>${{funding.amt}}</td>
+					    </tr>
+			        </tbody> 
+			        <p><a ng-href="../university_funding/index.html#{{univ.fedFundUrl}}">Federal Funding Summary</a></p>
+		    	</table> 
+
+			</div>
+
+          </div> 
+            </a>
+            <div class="clearfix"></div>
+        </div>
+        <div class="panel-footer">
+            <span class="text-muted">{{totalUniv}} universities funded by the Ontario government</span>
+        </div>
+    </div>
+</div>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap.min.js"></script>
+  <script src="./script.js"></script>
+  </body>
+</html>
