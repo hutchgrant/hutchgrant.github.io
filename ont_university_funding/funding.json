@@ -1,4 +1,137 @@
-[ { "id": "1", "title": "University of Toronto", "location":"Toronto", "fedFundUrl":"toronto", 
+[{ "id": "1", "title": "Algoma University", "location":"Sault Ste. Marie", "fedFundUrl":"top", 
+ "fedTotal":"unknown n/a", "provTotal":"14,259,778",
+ "funding":[
+	{"ministry":"MINISTRY OF TRAINING", "amt":"14,173,278", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"86,500", "reason": "CAPITAL TRANSFER PAYMENTS" }
+ ]}, 
+ { "id": "2", "title": "Brock University", "location":"St. Catharines", "fedFundUrl":"brock", 
+ "fedTotal":"123,232,000", "provTotal":"94,460,666",
+ "funding":[
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"1,322,012", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"1,633,000", "reason": "SMOKE-FREE ONTARIO" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"87,927,889", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"3,577,765", "reason": "CAPITAL TRANSFER PAYMENTS" }
+ ]},
+ { "id": "3", "title": "Carleton University", "location":"Ottawa", "fedFundUrl":"top", 
+ "fedTotal":"unknown n/a", "provTotal":"172,244,851",
+ "funding":[
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"2,337,297", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"641,104", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"241,628", "reason": "HEALTH SYSTEM RESEARCH FUND" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"166,087,637", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"2,937,185", "reason": "CAPITAL TRANSFER PAYMENTS" }
+ ]},
+ { "id": "4", "title": "University of Guelph", "location":"Guelph", "fedFundUrl":"guelph", 
+ "fedTotal":"316,770,000", "provTotal":"297,625,254",
+ "funding":[
+	{"ministry":"MINISTRY OF AGRICULTURE AND FOOD/MINISTRY OF RURAL AFFAIRS", "amt":"72,920,027", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF AGRICULTURE AND FOOD/MINISTRY OF RURAL AFFAIRS", "amt":"198,654", "reason": "OTHER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"7,821,188", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF NATURAL RESOURCES", "amt":"365,910", "reason": "OTHER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF TRAINING", "amt":"212,696,597", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"3,622,878", "reason": "CAPITAL TRANSFER PAYMENTS" }
+ ]},
+ { "id": "5", "title": "Lakehead University", "location":"Thunder Bay", "fedFundUrl":"lakehead", 
+ "fedTotal":"80,424,000", "provTotal":"65,637,146",
+ "funding":[
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"311,533", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"448,786", "reason": "CLINICAL EDUCATION" }, 
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"184,225", "reason": "COMMUNITY AND PRIORITY SERVICES" }, 
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"268,000", "reason": "SMOKE-FREE ONTARIO" },
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"122,773", "reason": "OTHER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF TRAINING", "amt":"62,704,670", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"1,597,159", "reason": "CAPITAL TRANSFER PAYMENTS" }
+ ]},
+ { "id": "6", "title": "Laurentian University", "location":"Sudbury", "fedFundUrl":"top", 
+ "fedTotal":"unknown n/a", "provTotal":"86,128,654",
+ "funding":[
+	{"ministry":"MINISTRY OF CITIZENSHIP AND IMMIGRATION", "amt":"900,000", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"535,476", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF THE ENVIRONMENT", "amt":"150,000", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"588,571", "reason": "CLINICAL EDUCATION" },
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"1,274,898", "reason": "HEALTH SYSTEM RESEARCH FUND" }, 
+	{"ministry":"MINISTRY OF NATURAL RESOURCES", "amt":"74,163", "reason": "OTHER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF TRAINING", "amt":"74,252,950", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"8,352,596", "reason": "CAPITAL TRANSFER PAYMENTS" }
+ ]},
+ { "id": "7", "title": "McMaster University", "location":"Burlington", "fedFundUrl":"mcmaster", 
+ "fedTotal":"495,785,000", "provTotal":"326,601,071",
+ "funding":[
+	{"ministry":"MINISTRY OF THE ATTORNEY GENERAL", "amt":"112,159", "reason": "OTHER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF CHILDREN AND YOUTH SERVICES", "amt":"1,234,628", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF CITIZENSHIP AND IMMIGRATION", "amt":"400,000", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"21,384,668", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF EDUCATION", "amt":"200,000", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF ENERGY", "amt":"271,593", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"2,3001,774", "reason": "CLINICAL EDUCATION" },
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"4,095,853", "reason": "PAYMENTS MADE FOR SERVICES AND CARE PROVIDED BY PHYSICIANS AND PRACTITIONERS" }, 
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"122,747", "reason": "COMMUNITY AND PRIORITY SERVICES" }, 
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"5,742,812", "reason": "HEALTH SYSTEM RESEARCH FUND" }, 
+	{"ministry":"MINISTRY OF LABOUR", "amt":"508,307", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF TRAINING", "amt":"241,825,785", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"27,580,295", "reason": "CAPITAL TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRANSPORTATION", "amt":"120,450", "reason": "OTHER PAYMENTS" }
+ ]},
+ { "id": "8", "title": "Nipissing University", "location":"North Bay", "fedFundUrl":"top", 
+ "fedTotal":"unknown n/a", "provTotal":"35,356,143",
+ "funding":[
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"340,923", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF TRAINING", "amt":"34,742,140", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"273,080", "reason": "CAPITAL TRANSFER PAYMENTS" }
+ ]},
+ { "id": "9", "title": "OCAD University", "location":"Toronto", "fedFundUrl":"ocad", 
+ "fedTotal":"28,126,750", "provTotal":"26,271,728",
+ "funding":[
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"358303", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF GOVERNMENT SERVICES", "amt":"89721", "reason": "OTHER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF TRAINING", "amt":"25,580,528", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"243,176", "reason": "CAPITAL TRANSFER PAYMENTS" }
+ ]},
+ { "id": "10", "title": "University of Ottawa", "location":"Ottawa", "fedFundUrl":"ottawa", 
+ "fedTotal":"123,603,001.05", "provTotal":"410,403,627",
+ "funding":[
+	{"ministry":"MINISTRY OF COMMUNITY SAFETY AND CORRECTIONAL SERVICES", "amt":"109,607", "reason": "OTHER PAYMENTS" },
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"9,982,127", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF EDUCATION", "amt":"247,549", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF EDUCATION", "amt":"185,047", "reason": "OTHER PAYMENTS" },
+	{"ministry":"MINISTRY OF ENERGY", "amt":"153,670", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"72,402,702", "reason": "CLINICAL EDUCATION" },
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"152,321", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF LABOUR", "amt":"284,525", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF TRAINING", "amt":"318,021,053", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"8,865,026", "reason": "CAPITAL TRANSFER PAYMENTS" }
+ ]},
+ { "id": "11", "title": "Queen's University", "location":"Kingston", "fedFundUrl":"queens", 
+ "fedTotal":"351,315,000", "provTotal":"230,581,176",
+ "funding":[
+	{"ministry":"MINISTRY OF COMMUNITY AND SOCIAL SERVICES", "amt":"296,215", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF COMMUNITY SAFETY AND CORRECTIONAL SERVICES", "amt":"347,780", "reason": "OTHER PAYMENTS" },
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"17,970,622", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF EDUCATION", "amt":"193,666", "reason": "OTHER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"8,956,174", "reason": "CLINICAL EDUCATION" },
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"126,732", "reason": "COMMUNITY AND PRIORITY SERVICES" },  
+	{"ministry":"MINISTRY OF NATURAL RESOURCES", "amt":"180,607", "reason": "OTHER PAYMENTS" },  
+	{"ministry":"MINISTRY OF TRAINING", "amt":"197,434,158", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"4,918,868", "reason": "CAPITAL TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRANSPORTATION", "amt":"156,354", "reason": "OTHER PAYMENTS" }
+ ]}, 
+ { "id": "12", "title": "Ryerson University", "location":"Toronto", "fedFundUrl":"ryerson", 
+ "fedTotal":"259,181,000", "provTotal":"245,505,665",
+ "funding":[
+	{"ministry":"MINISTRY OF CITIZENSHIP AND IMMIGRATION", "amt":"1,250,000", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"1,255,497", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"59,282", "reason": "OTHER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF ENERGY", "amt":"301,970", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF THE ENVIRONMENT", "amt":"135,380", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF GOVERNMENT SERVICES", "amt":"62,036", "reason": "OTHER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"725,100", "reason": "CLINICAL EDUCATION" },
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"326,329", "reason": "HEALTH SYSTEM RESEARCH FUND" }, 
+	{"ministry":"MINISTRY OF MUNICIPAL AFFAIRS AND HOUSING", "amt":"200,000", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF TRAINING", "amt":"233,814,906", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"7,212,540", "reason": "CAPITAL TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRANSPORTATION", "amt":"162,625", "reason": "OTHER PAYMENTS" }
+ ]},
+ { "id": "13", "title": "University of Toronto", "location":"Toronto", "fedFundUrl":"toronto", 
  "fedTotal":"1,490,237,000", "provTotal":"896,797,914",
  "funding":[
 	{"ministry":"MINISTRY OF THE ATTORNEY GENERAL", "amt":"145,915", "reason": "OTHER PAYMENTS" }, 
@@ -14,7 +147,7 @@
 	{"ministry":"MINISTRY OF EDUCATION", "amt":"199,345", "reason": "TRANSFER PAYMENTS" },
 	{"ministry":"MINISTRY OF EDUCATION", "amt":"709,412", "reason": "OTHER PAYMENTS" },
 	{"ministry":"MINISTRY OF ENERGY", "amt":"450,000", "reason": "TRANSFER PAYMENTS" },
-	{"ministry":"MINISTRY OF ENVIRONMENT", "amt":"788,388", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF THE ENVIRONMENT", "amt":"788,388", "reason": "TRANSFER PAYMENTS" },
 	{"ministry":"MINISTRY OF GOVERNMENT SERVICES", "amt":"435,570", "reason": "OTHER PAYMENTS" }, 
 	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"99,500", "reason": "SALARIES AND WAGES" },
 	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"152,574,788", "reason": "CLINICAL EDUCATION" }, 
@@ -31,7 +164,40 @@
 	{"ministry":"MINISTRY OF TRAINING", "amt":"21,105,492", "reason": "CAPITAL TRANSFER PAYMENTS" },
 	{"ministry":"MINISTRY OF TRANSPORTATION", "amt":"460,123", "reason": "OTHER PAYMENTS" }
  ]},
- { "id": "1", "title": "University of Western Ontario", "location":"London", "fedFundUrl":"western", 
+ { "id": "14", "title": "Trent University", "location":"Peterborough", "fedFundUrl":"trent", 
+ "fedTotal":"8,762,000", "provTotal":"51,992,287",
+ "funding":[
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"1,407,133", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF THE ENVIRONMENT", "amt":"135,500", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF NATURAL RESOURCES", "amt":"259,269", "reason": "SPECIES AT RISK IN ONTARIO STEWARDSHIP" }, 
+	{"ministry":"MINISTRY OF NATURAL RESOURCES", "amt":"268,838", "reason": "OTHER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF TRAINING", "amt":"49,124,087", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"797,460", "reason": "CAPITAL TRANSFER PAYMENTS" }
+ ]},
+ { "id": "15", "title": "University of Ontario Institute of Technology", "location":"Oshawa", "fedFundUrl":"ontario", 
+ "fedTotal":"79,125,000", "provTotal":"70,347,585",
+ "funding":[
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"650,416", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF FINANCE", "amt":"595,195", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF TRAINING", "amt":"68,375,340", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"726,634", "reason": "CAPITAL TRANSFER PAYMENTS" }
+ ]},
+ { "id": "16", "title": "University of Waterloo", "location":"Waterloo", "fedFundUrl":"waterloo", 
+ "fedTotal":"388,310,000", "provTotal":"276,841,346",
+ "funding":[
+	{"ministry":"MINISTRY OF AGRICULTURE AND FOOD/MINISTRY OF RURAL AFFAIRS", "amt":"228,035", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF CITIZENSHIP AND IMMIGRATION", "amt":"322,878", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"20,135,768", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF THE ENVIRONMENT", "amt":"251,823", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"173,482", "reason": "TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"204,000", "reason": "COMMUNITY AND PRIORITY SERVICES" }, 
+	{"ministry":"MINISTRY OF HEALTH AND LONG-TERM CARE", "amt":"2,716,621", "reason": "HEALTH SYSTEM RESEARCH FUND" }, 
+	{"ministry":"MINISTRY OF LABOUR", "amt":"524,150", "reason": "TRANSFER PAYMENTS" }, 
+	{"ministry":"MINISTRY OF TRAINING", "amt":"246,448,255", "reason": "OPERATING TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRAINING", "amt":"5,377,148", "reason": "CAPITAL TRANSFER PAYMENTS" },
+	{"ministry":"MINISTRY OF TRANSPORTATION", "amt":"459,186", "reason": "OTHER PAYMENTS" }
+ ]},
+ { "id": "17", "title": "University of Western Ontario", "location":"London", "fedFundUrl":"western", 
  "fedTotal":"75,372,000", "provTotal":"338,831,551",
  "funding":[
 	{"ministry":"MINISTRY OF THE ATTORNEY GENERAL", "amt":"363,327", "reason": "OTHER PAYMENTS" }, 
@@ -47,14 +213,14 @@
 	{"ministry":"MINISTRY OF TRAINING", "amt":"297,023,000", "reason": "OPERATING TRANSFER PAYMENTS" },
 	{"ministry":"MINISTRY OF TRAINING", "amt":"8,496,943", "reason": "CAPITAL TRANSFER PAYMENTS" }
  ]},
- { "id": "1", "title": "Wilfrid Laurier", "location":"Toronto", "fedFundUrl":"laurier", 
+ { "id": "18", "title": "Wilfrid Laurier", "location":"Waterloo", "fedFundUrl":"laurier", 
  "fedTotal":"5,933,958", "provTotal":"131,066,504",
  "funding":[
 	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"262,036", "reason": "TRANSFER PAYMENTS" }, 
 	{"ministry":"MINISTRY OF TRAINING", "amt":"104,567,843", "reason": "OPERATING TRANSFER PAYMENTS" },
 	{"ministry":"MINISTRY OF TRAINING", "amt":"26,236,625", "reason": "CAPITAL TRANSFER PAYMENTS" }
  ]},
-  { "id": "0", "title": "University of Windsor", "location":"Windsor", "fedFundUrl":"windsor", 
+  { "id": "19", "title": "University of Windsor", "location":"Windsor", "fedFundUrl":"windsor", 
  "fedTotal":"137,101,000", "provTotal":"107,940,040",
  "funding":[
 	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"1,621,458", "reason": "TRANSFER PAYMENTS" }, 
@@ -63,7 +229,7 @@
 	{"ministry":"MINISTRY OF TRAINING", "amt":"95,962,707", "reason": "OPERATING TRANSFER PAYMENTS" },
 	{"ministry":"MINISTRY OF TRAINING", "amt":"9,807,700", "reason": "CAPITAL TRANSFER PAYMENTS" }
  ]},
- { "id": "0", "title": "York University", "location":"North York", "fedFundUrl":"york", 
+ { "id": "20", "title": "York University", "location":"North York", "fedFundUrl":"york", 
  "fedTotal":"408,706,826.25", "provTotal":"338,933,693",
  "funding":[
 	{"ministry":"MINISTRY OF THE ATTORNEY GENERAL", "amt":"274,000", "reason": "TRANSFER PAYMENTS" }, 

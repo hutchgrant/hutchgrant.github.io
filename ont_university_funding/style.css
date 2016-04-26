@@ -1,0 +1,9 @@
+.list-group {
+	overflow-y: scroll;
+	min-height: 250px;
+	max-height: 500px;
+}
+
+#bJson {
+	float:right;
+}
