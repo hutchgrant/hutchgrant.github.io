@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="ng-app" ng-app>
+<html id="ng-app" data-ng-app="univFunding">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -12,10 +12,27 @@
   
   <body ng-app="univFunding">
 
-  <div class="container" ng-controller="MyAppController">
-    <h3>{{title}}</h3>
-    <h5>{{description}}</h5><br />
-
+  <div class="container content" ng-controller="FundController">
+    <h1 class="text-center">{{title}}</h1>
+    <h5 class="text-center">{{description}}</h5><br />
+    <img class="graphImg" src="./graph.png"/>
+    <div class="row">
+		<div class="col-md-1 col-sm-0 col-xs-0"></div>
+		<div class="col-md-10 col-sm-12 col-xs-12 headBtm">
+			<div class="row">
+			<div class="col-md-3 col-sm-1 col-xs-0"></div>
+			<div class="col-md-6 col-sm-10 col-xs-12 bGrpHead">
+				<div class="btn btn-default" ng-click="methodology();">Methodology</div>
+				<div class="btn btn-default" ng-click="problems();">Problems</div>
+				<div class="btn btn-default" ng-click="results();">Results</div>				
+			</div>
+			<div class="col-md-3 col-sm-1 col-xs-0"></div>
+			</div>
+			<h3>{{explanationTitle}}</h3>
+			<p>{{fundingExplanation}}</p>
+		</div>
+		<div class="col-md-1"></div>
+    </div>
 	<div class="panel panel-default">
         <div class="panel-heading">
 			<div class="input-group">
@@ -24,44 +41,45 @@
         </div>
 
         <div class="panel list-group">
-			<a href="#" ng-repeat="univ in univ | filter: query" class="list-group-item animate-repeat" ng-model="collapsed" ng-click="collapsed=!collapsed"><span class="badge">{{univ.location}}</span><h4>{{univ.title}}</h4><br>
+			<div ng-repeat="univ in univ | filter: query" class="list-group-item animate-repeat" ng-model="collapsed" ng-click="collapsed=!collapsed"><span class="badge">{{univ.location}}</span><h4>{{univ.title}}</h4><br>
 	        <div ng-show="collapsed">
-	        <p>Federal Funding: ${{univ.fedTotal}}</p>
-	        <p>Provincial Funding: ${{univ.provTotal}}</p>
-	        <div class="table-responsive"> 
-		    	<table class="table table-bordered table-striped">
-			         <thead> 
-					    <tr>
-					      <th class="col-md-6">Ontario Ministry</th>
-					      <th class="col-md-4">Reason</th>
-					      <th class="col-md-2">Funding 2014-2015</th>
-					    </tr>
-				    </thead> 
-				    <tbody> 
-				    	<tr ng-repeat="funding in univ.funding">
-					        <td>{{funding.ministry}}</td>
-					        <td>{{funding.reason}}</td>
-					        <td>${{funding.amt}}</td>
-					    </tr>
-			        </tbody> 
-			        <p><a ng-href="../university_funding/index.html#{{univ.fedFundUrl}}">Federal Funding Summary</a></p>
-		    	</table> 
-
-			</div>
-
+	        	<a name="{{univ.fedFunUrl}}"></a>
+		        <p>Provincial Funding: ${{univ.provTotal}}</p>
+		        <p>Federal Funding: ${{univ.fedTotal}}</p>
+				<p><a href="../university_funding/index.html#{{univ.fedFundUrl}}">Federal Funding Summary</a></p>
+				<div class="table-responsive"> 
+					<table class="table table-bordered table-striped">
+						<thead> 
+							<tr>
+								<th class="col-md-6">Ontario Ministry</th>
+								<th class="col-md-4">Reason</th>
+								<th class="col-md-2">Funding 2014-2015</th>
+							</tr>
+						</thead> 
+						<tbody> 
+							<tr ng-repeat="funding in univ.funding">
+								<td>{{funding.ministry}}</td>
+								<td>{{funding.reason}}</td>
+								<td>${{funding.amt}}</td>
+							</tr>
+						</tbody> 
+					</table> 
+					<p class="text-right"><a href="./prov_fund_univ_list.html#{{univ.fedFundUrl}}">Permalink</a></p>	
+				</div>
           </div> 
-            </a>
+            </div>
             <div class="clearfix"></div>
         </div>
         <div class="panel-footer">
             <span class="text-muted">{{totalUniv}} universities funded by the Ontario government</span>
-			<button id="bJson" type="button" onclick="window.location.href ='./funding.json'">Export JSON</button>
+			<button id="bJson" class="btn btn-default" type="button" onclick="window.location.href ='./funding.json'">View JSON</button>
+			<button id="bJson" class="btn btn-default" type="button" onclick="window.location.href ='./prov_fund_univ_list.html'">Full HTML</button>
         </div>
     </div>
 </div>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.2/ui-bootstrap.min.js"></script>
   <script src="./script.js"></script>
   </body>
 </html>

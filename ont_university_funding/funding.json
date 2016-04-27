@@ -1,4 +1,4 @@
-[{ "id": "1", "title": "Algoma University", "location":"Sault Ste. Marie", "fedFundUrl":"top", 
+[{ "id": "1", "title": "Algoma University", "location":"Sault Ste. Marie", "fedFundUrl":"algoma", 
  "fedTotal":"unknown n/a", "provTotal":"14,259,778",
  "funding":[
 	{"ministry":"MINISTRY OF TRAINING", "amt":"14,173,278", "reason": "OPERATING TRANSFER PAYMENTS" },
@@ -12,7 +12,7 @@
 	{"ministry":"MINISTRY OF TRAINING", "amt":"87,927,889", "reason": "OPERATING TRANSFER PAYMENTS" },
 	{"ministry":"MINISTRY OF TRAINING", "amt":"3,577,765", "reason": "CAPITAL TRANSFER PAYMENTS" }
  ]},
- { "id": "3", "title": "Carleton University", "location":"Ottawa", "fedFundUrl":"top", 
+ { "id": "3", "title": "Carleton University", "location":"Ottawa", "fedFundUrl":"carleton", 
  "fedTotal":"unknown n/a", "provTotal":"172,244,851",
  "funding":[
 	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"2,337,297", "reason": "TRANSFER PAYMENTS" }, 
@@ -42,7 +42,7 @@
 	{"ministry":"MINISTRY OF TRAINING", "amt":"62,704,670", "reason": "OPERATING TRANSFER PAYMENTS" },
 	{"ministry":"MINISTRY OF TRAINING", "amt":"1,597,159", "reason": "CAPITAL TRANSFER PAYMENTS" }
  ]},
- { "id": "6", "title": "Laurentian University", "location":"Sudbury", "fedFundUrl":"top", 
+ { "id": "6", "title": "Laurentian University", "location":"Sudbury", "fedFundUrl":"laurentian", 
  "fedTotal":"unknown n/a", "provTotal":"86,128,654",
  "funding":[
 	{"ministry":"MINISTRY OF CITIZENSHIP AND IMMIGRATION", "amt":"900,000", "reason": "TRANSFER PAYMENTS" },
@@ -54,7 +54,7 @@
 	{"ministry":"MINISTRY OF TRAINING", "amt":"74,252,950", "reason": "OPERATING TRANSFER PAYMENTS" },
 	{"ministry":"MINISTRY OF TRAINING", "amt":"8,352,596", "reason": "CAPITAL TRANSFER PAYMENTS" }
  ]},
- { "id": "7", "title": "McMaster University", "location":"Burlington", "fedFundUrl":"mcmaster", 
+ { "id": "7", "title": "McMaster University", "location":"Burlington", "fedFundUrl":"master", 
  "fedTotal":"495,785,000", "provTotal":"326,601,071",
  "funding":[
 	{"ministry":"MINISTRY OF THE ATTORNEY GENERAL", "amt":"112,159", "reason": "OTHER PAYMENTS" }, 
@@ -72,7 +72,7 @@
 	{"ministry":"MINISTRY OF TRAINING", "amt":"27,580,295", "reason": "CAPITAL TRANSFER PAYMENTS" },
 	{"ministry":"MINISTRY OF TRANSPORTATION", "amt":"120,450", "reason": "OTHER PAYMENTS" }
  ]},
- { "id": "8", "title": "Nipissing University", "location":"North Bay", "fedFundUrl":"top", 
+ { "id": "8", "title": "Nipissing University", "location":"North Bay", "fedFundUrl":"nipissing", 
  "fedTotal":"unknown n/a", "provTotal":"35,356,143",
  "funding":[
 	{"ministry":"MINISTRY OF ECONOMIC DEVELOPMENT", "amt":"340,923", "reason": "TRANSFER PAYMENTS" }, 

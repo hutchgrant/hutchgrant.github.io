@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html id="ng-app" data-ng-app="univFunding">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <title>Ontario University Provincial Funding</title>
+	    <meta name="viewport" content="width=device-width">
+	    <meta name="" content-type="application/json">
+		<link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.css'>
+		<link rel=stylesheet href="./style.css" type="text/css">
+    </head>
+	<body ng-app="univFunding">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="main">
+			<div class="container" ng-controller="FundController">
+        		<div class="row">
+					<a name="top"></a>
+					<header> <h1 class="text-center">Ontario University Provincial Funding</h1></header>
+        			<div class="col-md-1"></div>
+        			<div class="col-md-10 content">
+						<div class="table-of-contents">
+							<div class="row">
+								<div class="col-md-1"></div>
+								<ul class="col-md-5">
+									<li><p><a href="#algoma">Algoma University</a></p></li>
+									<li><p><a href="#brock">Brock University</a></p></li>
+									<li><p><a href="#carleton">Carleton University</a></p></li>
+									<li><p><a href="#guelph">University of Guelph</a></p></li>
+									<li><p><a href="#lakehead">Lakehead University</a></p></li>
+									<li><p><a href="#laurentian">Laurentian University</a></p></li>									
+									<li><p><a href="#master">McMaster University</a></p></li>
+									<li><p><a href="#nipissing">Nipissing University</a></p></li>
+									<li><p><a href="#ocad">OCAD University</a></p></li>
+									<li><p><a href="#ottawa">University of Ottawa</a></p></li>
+								</ul>
+								<ul class="col-md-5">
+									<li><p><a href="#queens">Queen's University</a></p></li>
+									<li><p><a href="#ryerson">Ryerson University</a></p></li>
+									<li><p><a href="#toronto">University of Toronto</a></p></li>
+									<li><p><a href="#trent">Trent University</a></p></li>
+									<li><p><a href="#ontario">University of Ontario Institute of Technology</a></p></li>
+									<li><p><a href="#waterloo">University of Waterloo</a></p></li>
+									<li><p><a href="#western">Western University</a></p></li>
+									<li><p><a href="#laurier">Wilfrid Laurier</a></p></li>
+									<li><p><a href="#windsor">University of Windsor</a></p></li>
+									<li><p><a href="#york">York University</a></p></li>
+								</ul>
+								<div class="col-md-1"></div>
+							</div>
+						</div>
+        				<div class="school" ng-repeat="univ in univ | filter: query" class="list-group-item animate-repeat" ng-model="collapsed" ng-click="collapsed=!collapsed">
+        					<div class="schoolHead">
+        						<a name="{{univ.fedFundUrl}}" id="{{univ.fedFundUrl}}"></a>
+        						<div class="row">
+	        						<div class="schoolHeadLt col-md-10">
+	        							<h4>{{univ.title}}</h4>
+			        					<p>Provincial Funding: ${{univ.provTotal}}</p>
+										<p>Federal Funding: ${{univ.fedTotal}}</p>
+										<p><a ng-href="../university_funding/index.html#{{univ.fedFundUrl}}">Federal Funding Summary</a></p>
+										<a href="https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/clntSmmry?clientOrgCorpNumber=225481">Lobbying Summary</a>
+									</div>
+									<div class="schoolHeadRt col-md-2">
+									<span class="badge">{{univ.location}}</span><br><br>
+										<p><a href="#top">Back to Top</a></p>
+										<p><a href="#{{univ.fedFundUrl}}">Permalink</a></p>
+										
+									</div>
+								</div>
+							</div>
+					        <div class="table-responsive"> 
+						    	<table class="table table-bordered table-striped">
+							         <thead> 
+									    <tr>
+									      <th class="col-md-6">Ontario Ministry</th>
+									      <th class="col-md-4">Reason</th>
+									      <th class="col-md-2">Funding 2014-2015</th>
+									    </tr>
+								    </thead> 
+								    <tbody> 
+								    	<tr ng-repeat="funding in univ.funding">
+									        <td>{{funding.ministry}}</td>
+									        <td>{{funding.reason}}</td>
+									        <td>${{funding.amt}}</td>
+									    </tr>
+							        </tbody> 
+						    	</table> 
+							</div>
+        				</div>
+        			</div>
+        			<div class="col-md-1"></div>
+        		</div>
+        	</div>
+        </div>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.2/ui-bootstrap.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>

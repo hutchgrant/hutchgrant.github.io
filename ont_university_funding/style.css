@@ -7,3 +7,60 @@
 #bJson {
 	float:right;
 }
+.content{
+	background-color:#F7FBFF;
+	border-left: 1px solid #C7C7C7;
+    border-right: 1px solid #C7C7C7;
+    border-top:1px solid #C7C7C7;
+}
+.table-of-contents{
+	margin-left:80px;
+}
+
+.headBtm{
+	background-color:white;
+	margin-bottom:20px;
+	border-radius:5px;
+	border:1px solid lightgray;
+	float:left;
+	margin-top:20px;
+}
+
+.bGrpHead{
+	text-align:center;
+
+}
+
+.schoolHead{
+	background-color:white;
+	border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding:10px;
+}
+
+.schoolHeadLt{
+	top:-7px;
+}
+.schoolHeadRt{
+	top:10px;
+}
+
+.graphImg{
+	margin-left:15%;
+
+}
+@media screen and (min-width: 760px) {
+	#graphImg{
+		width:725px;
+		height:487px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#graphImg{
+		width:280px;
+		height:177px;
+	}
+}
