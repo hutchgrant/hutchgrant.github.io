@@ -23,12 +23,14 @@
 	border-radius:5px;
 	border:1px solid lightgray;
 	float:left;
-	margin-top:20px;
+	margin-bottom:10px;
+	display:none;
 }
 
 .bGrpHead{
+	margin-top:20px;
+	margin-bottom:10px;
 	text-align:center;
-
 }
 
 .schoolHead{
@@ -49,7 +51,7 @@
 }
 
 .graphImg{
-	margin-left:15%;
+	margin-left:17%;
 	width:725px;
 	height:487px;
 }
@@ -57,18 +59,13 @@
     z-index: 10;
     position: absolute;
     top: 310px;
-    left: 42.5%;
+    left: 43.5%;
     text-align: center;
     width: 220px;
 }
-@media only screen and (max-width: 1500px) {
-	.graphImg{
-		margin-left:17%;
-	}
-}
 @media only screen and (max-width: 960px) {
 	.graphImg{
-		margin-left:0px;
+		margin-left:17%;
 		width:580px;
 		height:377px;
 	}
@@ -76,13 +73,43 @@
 		visibility:hidden;
 	}
 }
+@media only screen and (max-width: 768px) {
+	.graphImg{
+		margin-left:10%;
+		width:480px;
+		height:320px;
+	}
+	.imgHover {
+		visibility:hidden;
+	}
+}
 @media only screen and (max-width: 500px) {
 	.graphImg{
-		margin-left:0px;
+		margin-left:15%;
 		width:280px;
 		height:177px;
 	}
 	.imgHover {
 		visibility:hidden;
 	}
+}
+@media only screen and (max-width: 360px) {
+	.graphImg{
+		margin-left:5%;
+		width:280px;
+		height:177px;
+	}
+	.imgHover {
+		visibility:hidden;
+	}
+}
+
+.pFootText{
+	float:left;
+}
+.bFootGrp{
+	float:right;
+}
+.pFoot {
+    height: 50px;
 }

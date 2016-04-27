@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="" content-type="application/json">
     <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.css'>
-    <link rel='stylesheet' href='./style.css'>
+    <link rel='stylesheet' href='./styles/style.css'>
   </head>
   
   <body ng-app="univFunding">
@@ -15,7 +15,7 @@
   <div class="container content" ng-controller="FundController">
     <h1 class="text-center">{{title}}</h1>
     <h5 class="text-center">{{description}}</h5><br />
-    <img class="graphImg" src="./graph.png" usemap="#graphmap"/>
+    <img class="graphImg" src="./images/graph.png" usemap="#graphmap"/>
     <map name="graphMap">
 		<area id="mpToronto" alt="University of Toronto" title="University of Toronto"  shape="poly" coords="363,1,364,120,393,126,415,133,439,150,460,169,473,194,481,214,598,186,582,140,546,86,499,44,446,15,406,5" style="outline:none;">
 		<area id="mpOttawa" alt="University of Ottawa" title="University of Ottawa" href=" " shape="poly" coords="598,187,479,214,484,239,483,266,477,288,589,332,599,298,606,249,602,210" style="outline:none;" >
@@ -44,20 +44,22 @@
     	<p id="hoverText2"></p>
     	<p id="hoverText3"></p>
     </div>
+	<div class="row">
+		<div class="col-md-3 col-sm-1 col-xs-0"></div>
+		<div class="col-md-6 col-sm-10 col-xs-12 bGrpHead">
+			<div class="btn-group" role="group" aria-label="Header Buttons">
+				<div class="btn btn-default methodology">Methodology</div>
+				<div class="btn btn-default problems">Problems</div>
+				<div class="btn btn-default results">Results</div>	
+			</div>			
+		</div>
+		<div class="col-md-3 col-sm-1 col-xs-0"></div>
+	</div>
     <div class="row">
 		<div class="col-md-1 col-sm-0 col-xs-0"></div>
 		<div class="col-md-10 col-sm-12 col-xs-12 headBtm">
-			<div class="row">
-			<div class="col-md-3 col-sm-1 col-xs-0"></div>
-			<div class="col-md-6 col-sm-10 col-xs-12 bGrpHead">
-				<div class="btn btn-default" ng-click="methodology();">Methodology</div>
-				<div class="btn btn-default" ng-click="problems();">Problems</div>
-				<div class="btn btn-default" ng-click="results();">Results</div>				
-			</div>
-			<div class="col-md-3 col-sm-1 col-xs-0"></div>
-			</div>
-			<h3>{{explanationTitle}}</h3>
-			<p>{{fundingExplanation}}</p>
+			<h3 id="explanationTitle" class="text-center"></h3>
+			<div class="explanationText"></div>
 		</div>
 		<div class="col-md-1"></div>
     </div>
@@ -98,17 +100,22 @@
             </div>
             <div class="clearfix"></div>
         </div>
-        <div class="panel-footer">
-            <span class="text-muted">{{totalUniv}} universities funded by the Ontario government</span>
-			<button id="bJson" class="btn btn-default" type="button" onclick="window.location.href ='./funding.json'">View JSON</button>
-			<button id="bJson" class="btn btn-default" type="button" onclick="window.location.href ='./prov_fund_univ_list.html'">Full HTML</button>
+        <div class="panel-footer pFoot">
+        	<div class="pFootText">
+            	<span class="text-muted">{{totalUniv}} universities funded by the Ontario government</span>
+            </div>
+			<div class="btn-group bFootGrp" role="group" aria-label="Header Buttons">
+				<button id="bJson" class="btn btn-default" type="button" onclick="window.location.href ='./funding.json'">View JSON</button>
+				<button id="bJson" class="btn btn-default" type="button" onclick="window.location.href ='./prov_fund_univ_list.html'">Full HTML</button>
+        	</div>
         </div>
     </div>
 </div>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.2/ui-bootstrap.min.js"></script>
-  <script src="./script.js"></script>
-  <script src="./mapScript.js"></script>
+  <script src="./scripts/script.js"></script>
+  <script src="./scripts/mapScript.js"></script>
+  <script src="./scripts/methodScript.js"></script>
   </body>
 </html>

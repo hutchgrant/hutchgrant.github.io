@@ -1,0 +1,19 @@
+jQuery(document).ready(function($){
+			
+			$(".methodology").click(function(){
+				console.log("testing");
+				$(".headBtm").show();
+				$("#explanationTitle").text("Methodology");
+				$(".explanationText").html("<p>testing</p>");
+			});
+			$(".problems").click(function(){
+				$(".headBtm").show();
+				$("#explanationTitle").text("Problems");
+				$(".explanationText").html("<p>testing2</p>");
+			});
+			$(".results").click(function(){
+				$(".headBtm").show();
+				$("#explanationTitle").text("Results");
+				$(".explanationText").html("<p>testing3</p>");
+			});
+});
