@@ -50,17 +50,39 @@
 
 .graphImg{
 	margin-left:15%;
-
+	width:725px;
+	height:487px;
 }
-@media screen and (min-width: 760px) {
-	#graphImg{
-		width:725px;
-		height:487px;
+.imgHover {
+    z-index: 10;
+    position: absolute;
+    top: 310px;
+    left: 42.5%;
+    text-align: center;
+    width: 220px;
+}
+@media only screen and (max-width: 1500px) {
+	.graphImg{
+		margin-left:17%;
 	}
 }
-@media only screen and (max-width: 480px) {
-	#graphImg{
+@media only screen and (max-width: 960px) {
+	.graphImg{
+		margin-left:0px;
+		width:580px;
+		height:377px;
+	}
+	.imgHover {
+		visibility:hidden;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.graphImg{
+		margin-left:0px;
 		width:280px;
 		height:177px;
+	}
+	.imgHover {
+		visibility:hidden;
 	}
 }
