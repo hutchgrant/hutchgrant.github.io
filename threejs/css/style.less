@@ -1,0 +1,241 @@
+/*
+Theme Name: Portfolio Theme
+Author: Grant Hutchinson
+Description: Theme for Grant Hutchinson's personal site
+Version: 0.0.1
+*/
+
+@import url('../bootstrap/css/bootstrap.css');
+@import url('../bootstrap/css/bootstrap-responsive.css');
+@font-face {
+    font-family: "skippy sharpie";
+    src: url('../fonts/big_fat_marker.ttf') format("truetype");
+}
+@color-1: #e93e3e;
+@color-2: #0a0abb;
+@color-3: black;
+@color-4: green;
+
+ body { margin: 0; }
+a { color:white; text-decoration:underline; }
+ canvas { width: 100%; height: 100% }
+h1, h2,
+h3, h4,
+h5, p,
+li {
+ color:@color-1;
+ font-family: "skippy sharpie", Verdana, Tahoma;
+}
+p {
+ color:@color-3;
+}
+h1{
+  font-size:16px;
+}
+h2{
+ color: @color-2;
+ font-size:14px;
+}
+h3{
+ font-size:12px;
+ line-height:24px;
+}
+h4{
+ font-size:10px;
+}
+p{
+ font-size:8px;
+ line-height:14px;
+}
+hr {
+    margin-left: 120px;
+    margin-right: 120px;
+    /* border-top: 1px solid rgba(170, 177, 193, 0.55); */
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), @color-2, rgba(0, 0, 0, 0));
+}
+/**
+ * Alignments
+ */
+.alignleft {
+  display: inline;
+  float: left;
+}
+.alignright {
+  display: inline;
+  float: right;
+}
+.aligncenter {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container{
+ z-index:0;
+}
+.main{
+  display:none;
+  position:absolute;
+  top:134px;
+  right:16%;
+  width:982px;
+  height: 570px;
+  z-index:1;
+}
+.header{
+ margin-top:10px;
+ padding-bottom:10px;
+ position:relative;
+ height:80px;
+  z-index:2;
+}
+.headerL{
+ float:left;
+ position:relative;
+ width:38%;
+ height:100%;
+ z-index:3;
+ padding-top: 5px;
+}
+.headerL > a{
+ text-decoration:none;
+}
+#head_name{
+ margin-left:auto;
+ margin-right:auto;
+width: 98%;
+ margin-top:0px;
+ margin-bottom:0px;
+}
+#head_pos {
+ margin-left:auto;
+ margin-right:auto;
+ width:90%;
+ margin-top: 20px;
+ margin-bottom: 10px;
+}
+.headerR{
+float:right;
+ width:62%;
+height:100%;
+  z-index:3;
+}
+.headerR > ul{
+ float: right;
+ list-style: none;
+ position: relative;
+}
+.headerR > ul > a {
+ text-decoration:none;
+}
+.headerR > ul > a > li{
+display: inline;
+float:left;
+text-align:center;
+width:90px;
+padding-top:3px;
+padding-bottom:3px;
+border:1px solid @color-1;
+border-radius:11px;
+font-size:10px;
+color:@color-1;
+margin-left:5px;
+}
+.headerR > ul > a > li:hover, 
+.headerR > ul > a > li:visited,
+.headerR > ul > a > li:focus,
+.headerR > ul > a > li:active {
+background-color:@color-1;
+border:1px solid @color-1;
+border-radius:15px;
+color:white;
+}
+.content{
+ float:left;
+ width:100%;
+ height:80%;
+ z-index:2;
+}
+
+.sheets{
+  /*  margin-left:40px; */
+}
+.paper
+{
+	position: relative;
+	/* width: 500px; */
+	padding: 10px;
+	margin: 0 auto;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+.paper:before, .paper:after
+{
+	position: absolute;
+	/* width: 40%; */
+	height: 10px;
+	content: ' ';
+	left: 12px;
+	bottom: 12px;
+	background: transparent;
+	-webkit-transform: skew(-5deg) rotate(-5deg);
+	-moz-transform: skew(-5deg) rotate(-5deg);
+	-ms-transform: skew(-5deg) rotate(-5deg);
+	-o-transform: skew(-5deg) rotate(-5deg);
+	transform: skew(-5deg) rotate(-5deg);
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	z-index: -1;
+} 
+
+.paper:after
+{
+	left: auto;
+	right: 12px;
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
+}
+
+.footer{
+ position:absolute;
+ bottom:0px;
+ width:100%;
+ height:60px;
+ z-index:2;
+}
+
+//// Loading Screen
+.onepix-imgloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+}
+
+/*hide the second element in the loading container (first element is the leading img)*/
+.loading-container > *:not(.onepix-imgloader) {
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity:0;
+    opacity:0;
+}
+
+.loading-container {
+    position: relative;
+    background: #dfdfdf;
+    min-height: 40px;
+    height: 400px;
+}
+
+#container {
+/*    min-width: 400px;*/
+    min-height: 400px;
+}
